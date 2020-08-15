@@ -12,8 +12,9 @@
 
 [![All Contributors](https://img.shields.io/github/all-contributors/s-weigand/zenodo-cite)](#contributors)
 [![Code style Python: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![DOI](https://zenodo.org/badge/286836411.svg)](https://zenodo.org/badge/latestdoi/286836411)
 
-Tool to generate a version sensitve citation or your software published on zenodo
+Tool to generate a version sensitive citation for your software published on zenodo
 
 - Free software: Apache Software License 2.0
 - Documentation: https://zenodo-cite.readthedocs.io.

@@ -57,9 +57,9 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `zenodo_cite` for local development.
+Ready to contribute? Here's how to set up ``zenodo_cite`` for local development.
 
-1. Fork the `zenodo-cite` repo on GitHub.
+1. Fork the ``zenodo-cite`` repo on GitHub.
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/zenodo_cite.git
