@@ -11,6 +11,7 @@ Welcome to Zenodo Cite's documentation!
    usage
    modules
    contributing
+   history
 
 Indices and tables
 ==================
