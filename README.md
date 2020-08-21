@@ -1,6 +1,5 @@
 # Zenodo Cite
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/322f6651be864a748a84b2fadae17646)](https://app.codacy.com/manual/s.weigand.phy/zenodo-cite?utm_source=github.com&utm_medium=referral&utm_content=s-weigand/zenodo-cite&utm_campaign=Badge_Grade_Dashboard)
 [![PyPi Version](https://img.shields.io/pypi/v/zenodo_cite.svg)](https://pypi.org/project/zenodo-cite/)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/zenodo-cite.svg)](https://anaconda.org/conda-forge/zenodo-cite)
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/zenodo_cite.svg)](https://pypi.org/project/zenodo-cite/)
@@ -9,6 +8,7 @@
 [![Actions Status](https://github.com/s-weigand/zenodo-cite/workflows/Tests/badge.svg)](https://github.com/s-weigand/zenodo-cite/actions)
 [![Documentation Status](https://readthedocs.org/projects/zenodo-cite/badge/?version=latest)](https://zenodo-cite.readthedocs.io/en/latest/?badge=latest)
 [![codecov](https://codecov.io/gh/s-weigand/zenodo-cite/branch/master/graph/badge.svg)](https://codecov.io/gh/s-weigand/zenodo-cite)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/322f6651be864a748a84b2fadae17646)](https://app.codacy.com/manual/s.weigand.phy/zenodo-cite?utm_source=github.com&utm_medium=referral&utm_content=s-weigand/zenodo-cite&utm_campaign=Badge_Grade_Dashboard)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=s-weigand/zenodo-cite)](https://dependabot.com)
 
 [![All Contributors](https://img.shields.io/github/all-contributors/s-weigand/zenodo-cite)](#contributors)
