@@ -1,5 +1,6 @@
 # Zenodo Cite
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/322f6651be864a748a84b2fadae17646)](https://app.codacy.com/manual/s.weigand.phy/zenodo-cite?utm_source=github.com&utm_medium=referral&utm_content=s-weigand/zenodo-cite&utm_campaign=Badge_Grade_Dashboard)
 [![PyPi Version](https://img.shields.io/pypi/v/zenodo_cite.svg)](https://pypi.org/project/zenodo-cite/)
 [![Conda Version](https://img.shields.io/conda/vn/conda-forge/zenodo-cite.svg)](https://anaconda.org/conda-forge/zenodo-cite)
 [![Supported Python Versions](https://img.shields.io/pypi/pyversions/zenodo_cite.svg)](https://pypi.org/project/zenodo-cite/)
