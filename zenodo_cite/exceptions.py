@@ -1,7 +1,7 @@
 """Module with custom exceptions."""
 
 
-class LookupError(ValueError):
+class ZenodoLookupError(ValueError):
     """Exception thrown when the zenodo api doesn't find a matching doi or concept doi."""
 
     def __init__(self, doi: str) -> None:

@@ -5,7 +5,7 @@ from typing import Any, Dict, Union
 
 import pytest
 
-from zenodo_cite.exceptions import LookupError
+from zenodo_cite.exceptions import ZenodoLookupError
 from zenodo_cite.zenodo_api import get_concept_doi, get_record_by_doi
 
 REPO_BASE = Path(__file__).parent.parent
@@ -49,7 +49,7 @@ def test_get_record_by_doi(
 )
 def test_get_concept_doi(doi: str, is_concept_doi: bool):
     if doi == "not_a_doi":
-        with pytest.raises(LookupError) as excinfo:
+        with pytest.raises(ZenodoLookupError) as excinfo:
             get_concept_doi(doi, is_concept_doi)
             assert doi in str(excinfo.value)
     elif is_concept_doi:

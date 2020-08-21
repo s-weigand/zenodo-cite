@@ -9,7 +9,7 @@ from typing import Any, Dict, List, Union
 
 import requests
 
-from zenodo_cite.exceptions import LookupError
+from zenodo_cite.exceptions import ZenodoLookupError
 
 
 def get_record_by_doi(
@@ -65,4 +65,4 @@ def get_concept_doi(doi: str, is_concept_doi=False) -> str:
             result = get_record_by_doi(doi, is_version_doi)
             if len(result):
                 return result[0]["conceptdoi"]
-        raise LookupError(doi)
+        raise ZenodoLookupError(doi)

@@ -2,13 +2,13 @@
 
 import pytest
 
-from zenodo_cite.exceptions import LookupError, MissingIdentifierException
+from zenodo_cite.exceptions import MissingIdentifierException, ZenodoLookupError
 
 
 def test_LookupError():
     doi = "this_is_a_doi"
-    with pytest.raises(LookupError) as excinfo:
-        raise LookupError(doi)
+    with pytest.raises(ZenodoLookupError) as excinfo:
+        raise ZenodoLookupError(doi)
     assert doi in str(excinfo.value)
 
 
